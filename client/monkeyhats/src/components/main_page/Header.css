@@ -1,0 +1,161 @@
+.social-link {
+  color: #fff;
+  text-decoration: none;
+}
+.page-width {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.message-container {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-gap: 10px;
+  background-color: var(--background-main-color);
+  color: var(--font-white-color);
+  font-size: 1.2rem;
+  padding: 1rem 2rem;
+  letter-spacing: 0.1rem;
+  align-items: center;
+}
+
+.message {
+  text-align: center;
+}
+
+.social-media-links {
+  display: flex;
+  justify-content: flex-end;
+}
+.social-icon {
+  cursor: pointer;
+  margin: 0 0.5rem;
+  font-size: 1.5rem;
+}
+
+header {
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: auto 1fr;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+header .logo img {
+  border-radius: 50%;
+  width: 150px;
+  height: auto;
+}
+
+.bar-navigation ul {
+  margin-top: 4rem;
+  display: flex;
+}
+
+.bar-navigation ul a {
+  text-decoration: none;
+}
+
+.bar-navigation ul li {
+  list-style: none;
+  color: var(--font-black-color);
+}
+
+.bar-navigation ul li {
+  color: var(--font-black-color);
+  font-weight: 400;
+  font-size: 1.3rem;
+  margin: 0 1rem;
+}
+.header-background {
+  background-color: var(--font-white-color);
+}
+
+span.navlink:hover {
+  cursor: pointer;
+  border-bottom: solid var(--background-main-color) 2px;
+  padding: 5px 0;
+}
+
+.active {
+  border-bottom: solid var(--background-main-color) 2px;
+  padding: 5px 0;
+  transition: border-bottom 0.1s ease-in-out;
+}
+
+@media (max-width: 767px) {
+  .message-container {
+    padding: 8px 0;
+  }
+  .message {
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-size: 10px;
+  }
+  .social-media-links {
+    display: none;
+  }
+  .bar-navigation ul li {
+    display: none;
+  }
+  header {
+    display: grid;
+    grid-template-columns: auto, 1fr;
+  }
+  header .logo img {
+    border-radius: 50%;
+    width: 150px;
+    height: auto;
+  }
+  .logo {
+    z-index: 100;
+  }
+  .mobile-navigation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-right: 1rem;
+    margin-left: 2rem;
+  }
+  .logo {
+    flex: 1;
+    text-align: center;
+    margin-right: 4rem;
+  }
+  #bars {
+    font-size: 2rem;
+    z-index: 1000000;
+    cursor: pointer;
+  }
+  .nav-container {
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    z-index: 100;
+    position: absolute;
+    background-color: #fff;
+    width: 90%;
+    height: 100vh;
+    border-radius: 2rem;
+  }
+  .urls {
+    margin-top: 10rem;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 2rem;
+  }
+
+  .link {
+    margin: 1rem 0;
+    padding: 1rem 0;
+    padding-left: 1rem;
+  }
+
+  .link:hover {
+    background-color: #bababa3a;
+  }
+}

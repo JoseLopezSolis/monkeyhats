@@ -1,0 +1,42 @@
+:root {
+  --background-main-color: #121212;
+  --background-white-main-color: #ffffff;
+  --font-white-color: #fff;
+  --font-black-color: #121212;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Assistant, "sans-serif";
+}
+
+.header-background.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  z-index: 999;
+  transition: all 0.3s ease-in-out;
+}
+
+.page-width {
+  max-width: 80rem;
+  margin: 0 auto;
+}
+.margin-top {
+  margin-top: 186.99px;
+}
+.hidden {
+  display: none;
+}
+@media (max-width: 767px) {
+  .page-width {
+    max-width: 900rem;
+    margin: 0 auto;
+  }
+}

@@ -1,0 +1,21 @@
+:root {
+  --background-main-color: #121212;
+  --background-white-main-color: #ffffff;
+  --font-white-color: #fff;
+  --font-black-color: #121212;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Assistant, "sans-serif";
+}
+
+body.popup-open {
+  overflow: hidden;
+}

@@ -1,0 +1,30 @@
+.our-brands-message {
+  font-size: 2rem;
+}
+.our-brands-message {
+  display: block;
+  color: #000;
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: bold;
+}
+.brands-container {
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.brands-animation {
+  display: flex;
+}
+.brands-animation img {
+  margin: 0 50px;
+  height: 100px;
+}
+
+@media (max-width: 767px) {
+  .brands-animation img {
+    margin: 20px 10px;
+    height: 50px;
+  }
+}

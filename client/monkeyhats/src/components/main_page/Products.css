@@ -1,0 +1,30 @@
+.products-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 2rem;
+  justify-content: center;
+}
+hr {
+  margin-top: 0.5rem;
+  border: solid black 0.5px;
+}
+.message-products span {
+  margin-top: 3rem;
+  font-size: 1.8rem;
+  color: var(--font-black-color);
+}
+
+@media (max-width: 767px) {
+  .products-container {
+    margin: 0 2rem;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+  }
+
+  .message-products span {
+    margin: 1rem 2rem;
+    margin-top: 3rem;
+    font-size: 20px;
+    color: var(--font-black-color);
+  }
+}
